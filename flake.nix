@@ -34,6 +34,10 @@
           # expressJs
           nodejs_22
 
+          # ruby sinatra
+          ruby
+          bundler
+
         ];
 
         shellHook = ''
