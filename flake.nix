@@ -20,11 +20,16 @@
           bashInteractiveFHS
           pkg-config
 
-          # fastAPI
+          # Tests
           python3
-          python312Packages.fastapi
           python312Packages.httpx
+  
+          # fastAPI
+          python312Packages.fastapi
           python312Packages.uvicorn
+
+          # flask
+          python312Packages.flask
 
           # expressJs
           nodejs_22
