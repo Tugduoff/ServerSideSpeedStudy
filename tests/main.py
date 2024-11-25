@@ -19,5 +19,12 @@ async def test_speed():
         end_time = time.time()
         print(f"GET /user/15/workspace/1/board/19/list/3/card/5 - Status: {response.status_code}, Time: {end_time - start_time:.4f} seconds")
 
+        start_time = time.time()
+        for idx in range(1, 1000):
+            idx_str = str(idx)
+            response = await client.get("http://127.0.0.1:8000/")
+        end_time = time.time()
+        print(f"GET /items/1?q=test 1000 times - Time: {end_time - start_time:.4f} seconds")
+
 if __name__ == "__main__":
     asyncio.run(test_speed())
