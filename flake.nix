@@ -20,10 +20,14 @@
           bashInteractiveFHS
           pkg-config
 
+          # fastAPI
           python3
           python312Packages.fastapi
           python312Packages.httpx
           python312Packages.uvicorn
+
+          # expressJs
+          nodejs_22
 
         ];
 
