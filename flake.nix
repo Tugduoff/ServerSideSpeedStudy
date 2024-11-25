@@ -21,6 +21,10 @@
           pkg-config
 
           python3
+          python312Packages.fastapi
+          python312Packages.httpx
+          python312Packages.uvicorn
+
         ];
 
         shellHook = ''
